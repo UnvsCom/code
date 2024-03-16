@@ -1905,7 +1905,7 @@ function hi({
   }, [I, B]), E(() => {
     p && (Ae = [{
       role: "assistant",
-      content: ``,
+      content: `Hi! I'm ${p.preview_name}, welcome to agents. How can I help you?`,
       created_at: Me()
     }], H(Ae));
   }, [p]), E(() => {
